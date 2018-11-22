@@ -21,5 +21,9 @@ Linguagem de Marcação:
 - `<ul></ul>` lista criadas com marcadores
 - `<ol></ol>` listas ordenada com números “1. assunto	2.assunto”
 
+# CSS
 
+é uma linguagem de estilo:
+
+- Visual
 
