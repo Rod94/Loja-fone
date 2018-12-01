@@ -13,15 +13,18 @@ h1{
   font-size: 40px;
   float: left; 
 }
-
-a{
-  font-family: 'Chakra Petch', sans-serif;;
-  text-decoration: none;
-  font-size: 21px;
-  color: #fff;
+nav{
+  font-family: 'Chakra Petch', sans-serif;
   float: right;
+  font-size: 21px;
+}
+
+a{  
+  text-decoration: none;  
+  color: #fff;
   padding: 0 30px;
 }
+
 .btn01{
   font-family: 'Arial', sans-serif;
   color: #fff;
