@@ -1,0 +1,12 @@
+.button-store {
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #252c41;
+  height: 60px;
+  line-height: 60px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}

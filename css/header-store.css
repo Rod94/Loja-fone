@@ -1,34 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
-header {
-  background-color: #e24647;
+.header-store {
   overflow: hidden;
   color: #fff;
   margin: 200px;
-  padding: 55px 60px 95px;
-  width: 1340px;
 }
 
-h1{
+.title {
   font-family: 'Arial', sans-serif;
   font-size: 40px;
   float: left; 
 }
-nav{
+
+.navigation {
   font-family: 'Chakra Petch', sans-serif;
   float: right;
   font-size: 21px;
 }
 
-a{  
+.action {  
   text-decoration: none;  
   color: #fff;
-  padding: 0 30px;
+  margin-right: 60px;
 }
 
-.btn01{
-  font-family: 'Arial', sans-serif;
-  color: #fff;
-  background-color: #252c41;
-  padding: 20px 60px;
-  width: 200px;
+.last {
+  margin-right: 0;
 }
