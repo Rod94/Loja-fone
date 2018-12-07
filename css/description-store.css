@@ -1,0 +1,28 @@
+.description-store{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 20px;
+}
+.description-store.-title{
+  font-size: 25px;
+  margin-bottom: 100px;
+  line-height: 30px;
+}
+.description-store.-rating{
+  padding: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.description-store.-info span{
+  margin-right: 78px;  
+}
+.description-store.-info{
+  margin-bottom: 25px;
+}
+.description-store.-text{
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+.description-store.-anchor{  
+  text-decoration: none;
+}
