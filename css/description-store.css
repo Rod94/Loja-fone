@@ -23,6 +23,8 @@
   margin-bottom: 25px;
   line-height: 30px;
 }
-.description-store.-anchor{  
+.anchor{  
   text-decoration: none;
+  color: #fff;
+  line-height: 30px;
 }
