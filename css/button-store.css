@@ -1,5 +1,6 @@
 .button-store {
   display: inline-block;
+  box-sizing: border-box;
   font-family: 'Arial', sans-serif;
   color: #fff;
   background-color: #252c41;
@@ -10,4 +11,11 @@
   text-align: center;
   text-decoration: none;
   margin-right: 0;
+}
+
+.button-store.-second{
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 218px;
+  line-height: 56px;
 }
