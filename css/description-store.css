@@ -6,18 +6,21 @@
 .description-store > .title{
   font-size: 25px;
   margin-bottom: 100px;
-  line-height: 30px;
 }
 .description-store > .rating{
   padding: 20px;
-  margin-bottom: 30px;
-  line-height: 30px;
+  margin-bottom: 30px;  
 }
-.description-store > .info span{
-  margin-right: 78px;  
+.description-store .contrast{
+  float: left;
+  text-transform: uppercase;
 }
 .description-store > .info{
-  margin-bottom: 25px;
+  margin-bottom: 72px;
+}
+.description-store > .info.-item{
+  width: 200px;
+  text-align: right;
 }
 .description-store > .text{
   margin-bottom: 25px;
@@ -26,7 +29,6 @@
 .description-store .anchor{  
   text-decoration: none;
   color: #fff;
-  line-height: 30px;
 }
 .description-store > .button{
   display: inline-block;

@@ -1,9 +1,11 @@
 .header-store {
   color: #fff;
   overflow: hidden;
+  margin-bottom: 138px;
 }
 
 .header-store > .title {
+  text-transform: uppercase;
   font-family: 'Arial', sans-serif;
   font-size: 40px;
   float: left; 
