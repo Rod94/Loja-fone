@@ -1,7 +1,7 @@
 .description-store{
   color: #fff;
   font-family: 'Roboto', sans-serif;  
-  font-size: 20px;
+  font-size: 20px;  
 }
 .description-store.-title{
   font-size: 25px;
@@ -30,4 +30,9 @@
 }
 .description-store.-button{
   display: inline-block;
+}
+
+.happy-fone{
+  width: 550px;
+  height: 550px;
 }
