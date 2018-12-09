@@ -6,10 +6,13 @@
 }
 .description-store > .title{
   font-size: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+.description-store > .star{
+  margin-bottom: 25px;
 }
 .description-store > .rating{
-  padding: 20px;
+  margin-left: 20px;
   margin-bottom: 30px;  
 }
 .description-store .contrast{
