@@ -1,7 +1,8 @@
 .description-store{
   color: #fff;
   font-family: 'Roboto', sans-serif;  
-  font-size: 20px;  
+  font-size: 20px;
+  display: inline-block;
 }
 .description-store > .title{
   font-size: 25px;
@@ -22,20 +23,14 @@
   width: 200px;
   text-align: right;
 }
+.description-store > .info.-item.-last{
+  margin-bottom: 72px;
+}
 .description-store > .text{
-  margin-top: 70px;
   margin-bottom: 25px;
   line-height: 30px;
 }
 .description-store .anchor{  
   text-decoration: none;
   color: #fff;
-}
-.description-store > .button{
-  display: inline-block;
-}
-
-.happy-fone{
-  width: 20px;
-  height: 20px;
 }
