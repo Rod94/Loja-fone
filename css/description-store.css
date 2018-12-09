@@ -16,13 +16,14 @@
   text-transform: uppercase;
 }
 .description-store > .info{
-  margin-bottom: 72px;
+  margin-bottom: 25px;
 }
 .description-store > .info.-item{
   width: 200px;
   text-align: right;
 }
 .description-store > .text{
+  margin-top: 70px;
   margin-bottom: 25px;
   line-height: 30px;
 }
