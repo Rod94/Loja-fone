@@ -31,9 +31,15 @@
 }
 .description-store > .text{
   margin-bottom: 25px;
-  line-height: 30px;
-}
-.description-store .anchor{  
-  text-decoration: none;
+  line-height: 30px;  
   color: #fff;
 }
+.description-store > .text.-more{
+  margin: 0;
+}
+
+.description-store .action{
+  color: inherit;
+  text-decoration: none;
+}
+
