@@ -6,4 +6,11 @@
   border-top-right-radius: 20%;
   border-bottom-right-radius: 20%;
   margin-right: 157px;
+
+}
+.photo-store > .coracao{
+  float: right;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 70px;
 }
