@@ -10,6 +10,7 @@
 }
 .description-store > .star{
   margin-bottom: 25px;
+  cursor: pointer;
 }
 .description-store > .rating{
   margin-left: 7px;
