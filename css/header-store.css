@@ -4,26 +4,36 @@
   margin-bottom: 138px;
   padding-left: 60px;
 }
-
 .header-store > .title {
   text-transform: uppercase;
   font-family: 'Arial', sans-serif;
   font-size: 40px;
   float: left; 
 }
-
 .header-store > .navigation {
   font-family: 'Chakra Petch', sans-serif;
   float: right;
   font-size: 21px;
 }
-
+.header-store .search {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  width: 358px;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  height: 27px;
+  margin-right: 65px;
+  color: #fff;  
+}
 .header-store .action {  
   text-decoration: none;  
   color: #fff;
   margin-right: 60px;
 }
-
 .header-store .action.-last {
   margin-right: 0;
 }
