@@ -37,3 +37,8 @@
 .header-store .action.-last {
   margin-right: 0;
 }
+
+.header-store .action:hover{
+  border: none;
+  border-bottom: 1px solid #fff;
+}
