@@ -20,7 +20,7 @@
   font-family: 'Arial', sans-serif;
   font-size: 20px;
   line-height: 24px;
-  font-weight: bold;
+  color: #fff;
   width: 358px;
   padding: 8px;
   border: none;
@@ -28,7 +28,6 @@
   background-color: transparent;
   height: 27px;
   margin-right: 65px;
-  color: #fff;  
 }
 .header-store .action {  
   text-decoration: none;  
