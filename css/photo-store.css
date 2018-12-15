@@ -12,4 +12,8 @@
   position: absolute;
   margin-top: 40px;
   margin-left: 70px;
+  cursor: pointer;
+}
+.photo-store > .coracao:hover{
+  transform: scale(1.3);
 }
