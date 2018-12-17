@@ -45,6 +45,7 @@
   background-color: #fff;
   position: absolute;
   bottom: 0;
+  left: 0;
   transition: transform 200ms linear;
   transform: scaleX(0);
   transform-origin: center left;
