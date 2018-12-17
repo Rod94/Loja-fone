@@ -1,4 +1,4 @@
-.photo-store{
+.photo-store {
   background-color: #fff;
   display: inline-block;
   height: 554px;
@@ -7,13 +7,14 @@
   border-bottom-right-radius: 20%;
   margin-right: 157px;
 }
-.photo-store > .coracao{
+.photo-store > .coracao {
   float: right;
   position: absolute;
   margin-top: 40px;
   margin-left: 70px;
   cursor: pointer;
+  transition: transform 100ms linear;
 }
-.photo-store > .coracao:hover{
+.photo-store > .coracao:hover {
   transform: scale(1.3);
 }

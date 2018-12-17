@@ -1,49 +1,51 @@
-.description-store{
+.description-store {
   color: #fff;
-  font-family: 'Roboto', sans-serif;  
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   display: inline-block;
 }
-.description-store > .title{
+.description-store > .title {
   font-size: 25px;
   margin-bottom: 50px;
 }
-.description-store > .star{
+.description-store > .star {
   margin-bottom: 25px;
   cursor: pointer;
 }
-.description-store .increase:hover{
+.description-store .increase {
+  transition: transform 100ms linear;
+}
+.description-store .increase:hover {
   transform: scale(1.2);
 }
-.description-store > .rating{
+.description-store > .rating {
   margin-left: 7px;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
 }
-.description-store .contrast{
+.description-store .contrast {
   float: left;
   text-transform: uppercase;
 }
-.description-store > .info{
+.description-store > .info {
   margin-bottom: 25px;
 }
-.description-store > .info.-item{
+.description-store > .info.-item {
   width: 200px;
   text-align: right;
 }
-.description-store > .info.-item.-last{
+.description-store > .info.-item.-last {
   margin-bottom: 72px;
 }
-.description-store > .text{
+.description-store > .text {
   margin-bottom: 25px;
-  line-height: 30px;  
+  line-height: 30px;
   color: #fff;
 }
-.description-store > .text.-more{
+.description-store > .text.-more {
   margin: 0;
 }
 
-.description-store .action{
+.description-store .action {
   color: inherit;
   text-decoration: none;
 }
-
