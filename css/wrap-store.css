@@ -1,10 +1,10 @@
-.wrap-store{
+.wrap-store {
   display: inline-block;
   vertical-align: middle;
   width: 554px;
   position: relative;
 }
-.wrap-store > .buttons{
+.wrap-store > .buttons {
   position: absolute;
-  transform: translateY(calc(100% + 68px));
+  transform: translateY(calc(100% + 40px));
 }
