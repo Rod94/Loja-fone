@@ -15,8 +15,9 @@
   }
   .wrap-store > .buttons {
     position: static;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    transform: none;
   }
 }
