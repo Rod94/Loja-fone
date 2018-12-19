@@ -3,8 +3,8 @@
   display: inline-block;
   height: 554px;
   vertical-align: middle;
-  border-top-right-radius: 20%;
-  border-bottom-right-radius: 20%;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
   margin-right: 157px;
 }
 .photo-store > .coracao {
@@ -17,4 +17,18 @@
 }
 .photo-store > .coracao:hover {
   transform: scale(1.3);
+}
+@media (max-width: 1325px) {
+  .photo-store {
+    margin-right: 140px;
+    text-align: center;
+  }
+}
+@media (max-width: 1310px) {
+  .photo-store {
+    display: block;
+    border-radius: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
