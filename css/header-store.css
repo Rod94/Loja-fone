@@ -80,7 +80,7 @@
 }
 @media (max-width: 465px) {
   .header-store .action {
-    margin-right: 15px;
+    margin-right: 8px;
   }
 }
 @media (max-width: 375px) {
@@ -88,7 +88,7 @@
     padding-left: 16px;
   }
   .header-store .action {
-    margin-right: 8px;
+    margin-right: 4px;
   }
 }
 @media (max-width: 335px) {
