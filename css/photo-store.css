@@ -31,4 +31,15 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
+  .photo-store > .coracao {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .photo-store {
+    height: auto;
+  }
+  .photo-store > .fone {
+    width: 100%;
+  }
 }

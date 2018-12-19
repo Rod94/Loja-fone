@@ -58,6 +58,13 @@
     font-size: 35px;
     text-align: center;
   }
+  .description-store > .star {
+    float: left;
+    margin-right: 55px;
+  }
+  .description-store > .rating {
+    padding-top: 4px;
+  }
 }
 @media (max-width: 720px) {
   .description-store {
