@@ -29,6 +29,9 @@
   height: 27px;
   margin-right: 65px;
 }
+.header-store .search::placeholder {
+  color: inherit;
+}
 .header-store .action {
   text-decoration: none;
   color: #fff;
