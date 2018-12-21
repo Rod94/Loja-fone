@@ -1,4 +1,7 @@
 .gradient-store {
+  height: 100%;
   background-color: #252a34;
   background-image: linear-gradient(to top, #ff2e63, #252a34);
+  background-size: cover;
+  background-attachment: fixed;
 }
