@@ -1,7 +1,8 @@
 const $second = window.document.querySelector(".-second");
+const $actLast = window.document.querySelector("a.-last");
 
 $second.addEventListener("click", handleClick);
 
 function handleClick() {
-  console.log("foi");
+  $actLast.innerHTML = "Carrinho lotado";
 }
