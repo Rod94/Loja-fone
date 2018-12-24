@@ -1,8 +1,10 @@
+let valorInicial = 10;
 const $second = window.document.querySelector(".-second");
-const $actLast = window.document.querySelector("a.-last");
 
 $second.addEventListener("click", handleClick);
 
 function handleClick() {
-  $actLast.innerHTML = "Carrinho lotado";
+  const $actLast = window.document.querySelector("a.-last");
+
+  $actLast.textContent = `Carrinho(${++valorInicial})`;
 }

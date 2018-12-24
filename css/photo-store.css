@@ -18,6 +18,9 @@
 .photo-store > .heart:hover {
   transform: scale(1.3);
 }
+.photo-store > .heart.-active {
+  background-color: #fff;
+}
 @media (max-width: 1325px) {
   .photo-store {
     margin-right: 140px;
