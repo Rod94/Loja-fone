@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/button-store.css"> 
     <title>Loja de Phone</title>
   </head>
+
   <body class="gradient-store">
     <div class="container-store">
       <header class="header-store">
@@ -27,23 +28,49 @@
           <a class="action -last" href="#">Carrinho (10)</a>
         </nav>
       </header>
+
       <figure class="photo-store">
         <img class="fone"src="img/fone.png" alt="fone de ouvido">
-        <img class="heart" src="img/heart.png" alt="coração">
       </figure>
+
       <section class="wrap-store">
         <dl class ="description-store">
           <dt class ="title">Fone top, feliz e caro</dt>
-          <dd class="star">
-            <img class="increase" src="img/star.png" alt="estrelas">
-            <img class="increase" src="img/star.png" alt="estrelas">
-            <img class="increase" src="img/star.png" alt="estrelas">
-            <img class="increase" src="img/star.png" alt="estrelas">
-            <img class="increase" src="img/star2.png" alt="estrelas">          
+          <dd class="item -heart">
+            <img class="icon" src="img/heart.png" alt="Like" />
+            <img class="icon -active" src="img/heart-active.png" alt="Like" />
           </dd>
-          <dd class="rating">4.0 (97)</dd>
-          <dd class="info -item"><span class="contrast">Frete</span>C$ 108</dd>
-          <dd class="info -item -last"><span class="contrast">Preço</span>C$ 340</dd>
+          <dd class="item -star">
+            <ol>
+              <li class="star">
+                <img class="icon -active" src="img/star-active.png" alt="estrelas">
+                <img class="icon" src="img/star.png" alt="estrelas">   
+              </li>
+              <li class="star">
+                <img class="icon -active" src="img/star-active.png" alt="estrelas">
+                <img class="icon" src="img/star.png" alt="estrelas">   
+              </li>
+              <li class="star">
+                <img class="icon -active" src="img/star-active.png" alt="estrelas">
+                <img class="icon" src="img/star.png" alt="estrelas">   
+              </li class="star">
+              <li>
+                <img class="icon -active" src="img/star-active.png" alt="estrelas">
+                <img class="icon" src="img/star.png" alt="estrelas">   
+              </li>
+              <li class="star">
+                <img class="icon -active" src="img/star-active.png" alt="estrelas">
+                <img class="icon" src="img/star.png" alt="estrelas">   
+              </li>
+            </ol>        
+          </dd>
+          <dd class="item -number">4.0 (97)</dd>
+          <dd class="item -info">
+            <strong class="contrast">Frete</strong> C$ 108
+          </dd>
+          <dd class="item -info -last">
+            <strong class="contrast">Preço</strong> C$ 340
+          </dd>
           <dd class="text">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
           <dd class="text -more"><a href="" class="action">Saber mais...</a></dd>
         </dl>
@@ -53,7 +80,7 @@
         </div>
       </section>
     </div>
-    <script src="js/photo-store.js"></script>
+    <script src="js/description-store.js"></script>
     <script src="js/buttons-store.js"></script>
   </body>
 </html>

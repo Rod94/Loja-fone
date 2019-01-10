@@ -1,4 +1,4 @@
-const $heart = window.document.querySelector(".heart");
+const $heart = window.document.querySelector(".-heart");
 
 $heart.addEventListener("click", handleClick);
 
