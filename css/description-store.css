@@ -27,7 +27,7 @@
   transition: transform 100ms linear;
 }
 .description-store .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .description-store .item .icon.-active {
   display: none;
