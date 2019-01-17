@@ -79,7 +79,15 @@
     padding-right: 30px;
   }
   .header-store .search {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-89%);
+    background-color: #fff;
+    color: #000;
+  }
+  .header-store .search.-active {
+    transform: translateX(0);
   }
 }
 @media (max-width: 530px) {
