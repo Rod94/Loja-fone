@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/gradient-store.css">
     <link rel="stylesheet" href="css/container-store.css">    
     <link rel="stylesheet" href="css/header-store.css">
+    <link rel="stylesheet" href="css/input-search.css">
     <link rel="stylesheet" href="css/photo-store.css">
     <link rel="stylesheet" href="css/wrap-store.css">
     <link rel="stylesheet" href="css/description-store.css">
@@ -22,8 +23,10 @@
       <header class="header-store">
         <h1 class="title">Logo</h1>        
         <nav class="navigation">
-          <input class="search -active" type="search" placeholder="Busca">
-          <img class="searchIcon -active" src="img/lupa.svg" alt="Lupa">
+          <form class="input-search">
+            <input class="search" type="search" placeholder="Busca"><!--            
+            --><input class="searchIcon -active" type="image" src="img/lupa.svg">
+          </form>
           <a class="action" href="#">Produtos</a>
           <a class="action" href="#">Serviços</a>
           <a class="action -last" href="#">Carrinho (10)</a>
@@ -82,7 +85,7 @@
       </section>
     </div>
     <script src="js/description-store.js"></script>
-    <script src="js/header-store.js"></script>
+    <script src="js/input-search.js"></script>
     <script src="js/buttons-store.js"></script>
   </body>
 </html>
