@@ -32,6 +32,9 @@
 .header-store .search::placeholder {
   color: inherit;
 }
+.header-store .searchIcon {
+  display: none;
+}
 .header-store .action {
   text-decoration: none;
   color: #fff;
@@ -82,13 +85,24 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(-89%);
+    transform: translateX(-92%);
     background-color: #fff;
     color: #000;
-    transition: transform 200ms linear;
+    transition: transform 300ms linear;
   }
   .header-store .search.-active {
     transform: translateX(0);
+  }
+  .header-store .searchIcon {
+    display: inline-block;
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  .header-store .searchIcon.-active {
+    display: none;
   }
 }
 @media (max-width: 530px) {
