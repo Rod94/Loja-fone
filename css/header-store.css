@@ -71,10 +71,10 @@
 }
 @media (max-width: 440px) {
   .header-store .action {
-    margin-right: 4px;
+    margin-right: 2px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .header-store {
     padding-left: 16px;
     padding-right: 16px;
@@ -84,7 +84,7 @@
   }
 }
 @media (max-width: 339px) {
-  .header-store > .navigation {
+  .header-store .action {
     display: none;
   }
 }
