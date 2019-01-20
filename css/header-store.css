@@ -16,15 +16,27 @@
   float: right;
   font-size: 21px;
 }
-
+.header-store #menu {
+  display: inline;
+}
+.header-store .menu {
+  display: none;
+}
+.header-store .item {
+  display: inline-block;
+  margin-right: 60px;
+  padding-bottom: 8px;
+}
+.header-store .item.-menu {
+  display: none;
+}
+.header-store .item.-last {
+  margin-right: 0;
+}
 .header-store .action {
   text-decoration: none;
-  color: #fff;
-  margin-right: 60px;
+  color: inherit;
   position: relative;
-}
-.header-store .action.-last {
-  margin-right: 0;
 }
 .header-store .action:after {
   content: "";
@@ -44,10 +56,12 @@
 @media (max-width: 1310px) {
   .header-store {
     padding-right: 60px;
-    margin-bottom: 35px;
   }
 }
 @media (max-width: 1235px) {
+  .header-store {
+    margin-bottom: 70px;
+  }
   .header-store > .title {
     float: none;
     text-align: center;
@@ -58,19 +72,25 @@
     text-align: center;
   }
 }
+@media (max-width: 955px) {
+  .header-store {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
 @media (max-width: 540px) {
-  .header-store .action {
+  .header-store .item {
     margin-right: 30px;
   }
 }
 @media (max-width: 480px) {
-  .header-store .action {
+  .header-store .item {
     margin-right: 10px;
   }
 }
 @media (max-width: 440px) {
-  .header-store .action {
+  .header-store .item {
     margin-right: 2px;
   }
 }
@@ -79,12 +99,52 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-  .header-store .action {
+  .header-store .item {
     margin-right: 4px;
   }
 }
 @media (max-width: 339px) {
-  .header-store .action {
-    display: none;
+  .header-store .item.-menu {
+    display: block;
+    box-sizing: border-box;
+    height: 27px;
+    width: 30px;
+    background-image: url(../img/hamburguer.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    text-indent: -9999px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transform: translateX(-100%);
+    transition: transform 400ms 100ms linear;
+  }
+  .header-store .list {
+    background-color: #fff;
+    color: #000;
+    width: 100vw;
+    height: 10vh;
+    padding: 20px 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    transform: translateX(100%);
+    transition: transform 300ms linear;
+  }
+  .header-store .list.-active {
+    transform: translateX(0);
+  }
+  .header-store .list.-active .item.-menu {
+    background-image: url(../img/close.svg);
+    background-size: 90%;
+    transform: translateX(0);
+    transition: none;
+  }
+  .header-store .item {
+    display: block;
   }
 }

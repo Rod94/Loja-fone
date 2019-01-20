@@ -43,6 +43,7 @@
   .input-search > .icon {
     display: none;
     height: 27px;
+    width: 30px;
     top: 0;
     left: 0;
     background-color: #fff;
@@ -51,12 +52,9 @@
   .input-search > .icon.-active {
     display: inline-block;
   }
-  /*.input-search .searchIcon.-active {
-    display: none;
-  }*/
 }
 @media (max-width: 400px) {
   .input-search > .search {
-    width: 85vw;
+    width: 75vw;
   }
 }
